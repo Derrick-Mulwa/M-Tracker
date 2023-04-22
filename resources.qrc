@@ -1,0 +1,25 @@
+<RCC>
+  <qresource prefix="images">
+    <file>images/lock.jpg</file>
+    <file>images/security.jpg</file>
+    <file>jason-dent-3wPJxh-piRw-unsplash.jpg</file>
+    <file>images/reversed.jpg</file>
+    <file>images/reversed.jpg</file>
+  </qresource>
+  <qresource prefix="gifs">
+    <file>gifs/icons8-spinner.gif</file>
+  </qresource>
+  <qresource prefix="fonts">
+    <file>fonts/NovaFlat-Regular.ttf</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>icons/icons8-pdf-64 (1).png</file>
+    <file>icons/icons8-upload-64 (1).png</file>
+    <file>icons/icons8-lock-384.png</file>
+    <file>icons/icons8-open-lock-384.png</file>
+    <file>icons/icons8-analytics-90.png</file>
+    <file>icons/icons8-combo-chart-90.png</file>
+    <file>icons/icons8-female-user-480.png</file>
+    <file>icons/icons8-user-male-480.png</file>
+  </qresource>
+</RCC>
