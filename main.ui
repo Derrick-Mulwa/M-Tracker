@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>947</width>
+    <width>986</width>
     <height>572</height>
    </rect>
   </property>
@@ -2951,13 +2951,1387 @@ border-bottom-left-radius: 0px;
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="Homepage"/>
+     <widget class="QWidget" name="Homepage">
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="QFrame" name="frame_38">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>554</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>897987</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(33, 53, 60);
+color: rgb(212, 212, 212);
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <item>
+           <widget class="QFrame" name="frame_40">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_12">
+             <item>
+              <widget class="QFrame" name="frame_46">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <widget class="QLabel" name="label_38">
+                <property name="geometry">
+                 <rect>
+                  <x>50</x>
+                  <y>-10</y>
+                  <width>121</width>
+                  <height>51</height>
+                 </rect>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>121</width>
+                  <height>51</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Nova Flat</family>
+                  <pointsize>13</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>M-TRACKER</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_39">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>-10</y>
+                  <width>47</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap resource="resources.qrc">:/icons/icons/icons8-analytics-90.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_48">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_47">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignVCenter">
+           <widget class="QFrame" name="frame_41">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_9">
+             <item>
+              <widget class="QPushButton" name="pushButton_17">
+               <property name="minimumSize">
+                <size>
+                 <width>171</width>
+                 <height>41</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>171</width>
+                 <height>41</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color:rgb(46, 75, 95);
+border-radius: 5px;
+color: rgb(212, 212, 212);</string>
+               </property>
+               <property name="text">
+                <string>View Transactions</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_18">
+               <property name="minimumSize">
+                <size>
+                 <width>171</width>
+                 <height>41</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>171</width>
+                 <height>41</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color:rgb(46, 75, 95);
+border-radius: 5px;
+color: rgb(212, 212, 212);</string>
+               </property>
+               <property name="text">
+                <string>Set Buget</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_19">
+               <property name="minimumSize">
+                <size>
+                 <width>171</width>
+                 <height>41</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>171</width>
+                 <height>41</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color:rgb(46, 75, 95);
+border-radius: 5px;
+color: rgb(212, 212, 212);</string>
+               </property>
+               <property name="text">
+                <string>Predict</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushButton_23">
+               <property name="minimumSize">
+                <size>
+                 <width>181</width>
+                 <height>41</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Nova Flat</family>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(0, 193, 0);
+
+border-radius:5px</string>
+               </property>
+               <property name="text">
+                <string>Add new data</string>
+               </property>
+               <property name="shortcut">
+                <string>Return</string>
+               </property>
+               <property name="checkable">
+                <bool>false</bool>
+               </property>
+               <property name="checked">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_42">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_13">
+             <item alignment="Qt::AlignBottom">
+              <widget class="QPushButton" name="pushButton_20">
+               <property name="minimumSize">
+                <size>
+                 <width>171</width>
+                 <height>41</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>171</width>
+                 <height>41</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color:rgb(255, 0, 4);
+border-radius: 5px;
+color: rgb(212, 212, 212);</string>
+               </property>
+               <property name="text">
+                <string>Logout</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_39">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_10">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QStackedWidget" name="stackedWidget_3">
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="page">
+             <layout class="QVBoxLayout" name="verticalLayout_15">
+              <item>
+               <widget class="QFrame" name="frame_43">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_11">
+                 <item>
+                  <widget class="QFrame" name="frame_44">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Nova Flat</family>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(33, 53, 60);
+color: rgb(212, 212, 212);
+</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_14">
+                    <item>
+                     <widget class="QLabel" name="label_40">
+                      <property name="minimumSize">
+                       <size>
+                        <width>691</width>
+                        <height>71</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Nova Flat</family>
+                        <pointsize>19</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>VIEW TRANSACTIONS</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item alignment="Qt::AlignHCenter">
+                     <widget class="QComboBox" name="comboBox">
+                      <property name="minimumSize">
+                       <size>
+                        <width>201</width>
+                        <height>31</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>334</width>
+                        <height>31</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">border-radius: 3px;
+border: 1px solid white</string>
+                      </property>
+                      <item>
+                       <property name="text">
+                        <string>Daily Balance Average</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Daily Spend Average</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Top 10 spenders</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Top 10 Incomes</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Top 10  Transaction types (Amount)</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Top 10  Transaction types (Frequency)</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Top 10  Most Transacted With Parties (Amount)</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Top 10  Most Transacted With Parties (Frequency)</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Money in vs Money (Amount)</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Money in vs Money (Frequency)</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Least 10 Spenders</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Least 10 Incomes</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Leat 10 Transaction Types (Amount)</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Least 10 Transaction Types (Frequency)</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Leat 10  Most Transacted With Parties (Amount)</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Top 10  Most Transacted With Parties (Frequency)</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </item>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_45">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <widget class="QFrame" name="frame_49">
+                    <property name="geometry">
+                     <rect>
+                      <x>0</x>
+                      <y>50</y>
+                      <width>120</width>
+                      <height>80</height>
+                     </rect>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="page_2">
+             <layout class="QVBoxLayout" name="verticalLayout_16">
+              <item>
+               <widget class="QFrame" name="frame_50">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>100</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(33, 53, 60);
+color: rgb(212, 212, 212);
+</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_17">
+                 <item>
+                  <widget class="QLabel" name="label_41">
+                   <property name="minimumSize">
+                    <size>
+                     <width>691</width>
+                     <height>71</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Nova Flat</family>
+                     <pointsize>19</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string>SET BUDGET</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_51">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_18">
+                 <item>
+                  <widget class="QFrame" name="frame_52">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_13">
+                    <item>
+                     <widget class="QFrame" name="frame_53">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="frame_54">
+                      <property name="minimumSize">
+                       <size>
+                        <width>400</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>400</width>
+                        <height>388</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <widget class="QPushButton" name="pushButton_21">
+                       <property name="geometry">
+                        <rect>
+                         <x>130</x>
+                         <y>280</y>
+                         <width>171</width>
+                         <height>41</height>
+                        </rect>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>171</width>
+                         <height>41</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>171</width>
+                         <height>41</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">background-color:rgb(39, 216, 19);
+border-radius: 5px;
+</string>
+                       </property>
+                       <property name="text">
+                        <string>Set Budget</string>
+                       </property>
+                      </widget>
+                      <widget class="QDateEdit" name="dateEdit">
+                       <property name="geometry">
+                        <rect>
+                         <x>20</x>
+                         <y>30</y>
+                         <width>151</width>
+                         <height>31</height>
+                        </rect>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border-radius: 3px;
+border: 1px solid white;
+color: rgb(227, 227, 227);</string>
+                       </property>
+                       <property name="displayFormat">
+                        <string>yyyy MMMM dd</string>
+                       </property>
+                      </widget>
+                      <widget class="QDateEdit" name="dateEdit_2">
+                       <property name="geometry">
+                        <rect>
+                         <x>240</x>
+                         <y>30</y>
+                         <width>151</width>
+                         <height>31</height>
+                        </rect>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border-radius: 3px;
+border: 1px solid white;
+color: rgb(227, 227, 227);</string>
+                       </property>
+                       <property name="displayFormat">
+                        <string>yyyy MMMM dd</string>
+                       </property>
+                      </widget>
+                      <widget class="QLabel" name="label_42">
+                       <property name="geometry">
+                        <rect>
+                         <x>20</x>
+                         <y>10</y>
+                         <width>101</width>
+                         <height>16</height>
+                        </rect>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <family>Nova Flat</family>
+                         <pointsize>9</pointsize>
+                        </font>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">color: rgb(190, 190, 190);</string>
+                       </property>
+                       <property name="text">
+                        <string>Start Date</string>
+                       </property>
+                      </widget>
+                      <widget class="QLabel" name="label_43">
+                       <property name="geometry">
+                        <rect>
+                         <x>240</x>
+                         <y>10</y>
+                         <width>101</width>
+                         <height>16</height>
+                        </rect>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <family>Nova Flat</family>
+                         <pointsize>9</pointsize>
+                        </font>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">color: rgb(190, 190, 190);</string>
+                       </property>
+                       <property name="text">
+                        <string>End Date</string>
+                       </property>
+                      </widget>
+                      <widget class="QLabel" name="label_44">
+                       <property name="geometry">
+                        <rect>
+                         <x>180</x>
+                         <y>35</y>
+                         <width>51</width>
+                         <height>21</height>
+                        </rect>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <family>Nova Flat</family>
+                         <pointsize>13</pointsize>
+                        </font>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">color: rgb(190, 190, 190);</string>
+                       </property>
+                       <property name="text">
+                        <string>TO</string>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                      </widget>
+                      <widget class="QLabel" name="label_45">
+                       <property name="geometry">
+                        <rect>
+                         <x>20</x>
+                         <y>110</y>
+                         <width>141</width>
+                         <height>51</height>
+                        </rect>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <family>Nova Flat</family>
+                         <pointsize>11</pointsize>
+                        </font>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">color: rgb(218, 218, 218);</string>
+                       </property>
+                       <property name="text">
+                        <string>Average daily 
+expenditure budget</string>
+                       </property>
+                      </widget>
+                      <widget class="QLabel" name="label_46">
+                       <property name="geometry">
+                        <rect>
+                         <x>20</x>
+                         <y>190</y>
+                         <width>151</width>
+                         <height>61</height>
+                        </rect>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <family>Nova Flat</family>
+                         <pointsize>11</pointsize>
+                        </font>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">color: rgb(218, 218, 218);</string>
+                       </property>
+                       <property name="text">
+                        <string>Whole duration 
+expenditure budget</string>
+                       </property>
+                      </widget>
+                      <widget class="QLineEdit" name="lineEdit_15">
+                       <property name="geometry">
+                        <rect>
+                         <x>230</x>
+                         <y>120</y>
+                         <width>161</width>
+                         <height>31</height>
+                        </rect>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">color: rgb(218, 218, 218);
+padding-left:3px;
+border: 1px solid rgb(238, 238, 238);
+border-radius:4px</string>
+                       </property>
+                      </widget>
+                      <widget class="QLineEdit" name="lineEdit_16">
+                       <property name="geometry">
+                        <rect>
+                         <x>230</x>
+                         <y>200</y>
+                         <width>161</width>
+                         <height>31</height>
+                        </rect>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">color: rgb(218, 218, 218);
+padding-left:3px;
+border: 1px solid rgb(238, 238, 238);
+border-radius:4px</string>
+                       </property>
+                      </widget>
+                      <widget class="QPushButton" name="pushButton_22">
+                       <property name="geometry">
+                        <rect>
+                         <x>170</x>
+                         <y>360</y>
+                         <width>111</width>
+                         <height>23</height>
+                        </rect>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <family>Nova Flat</family>
+                         <pointsize>10</pointsize>
+                        </font>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">color: rgb(185, 185, 185);
+background-color: transparent
+</string>
+                       </property>
+                       <property name="text">
+                        <string>View set budgets</string>
+                       </property>
+                      </widget>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="frame_55">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_19"/>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="page_8">
+             <layout class="QVBoxLayout" name="verticalLayout_21">
+              <item>
+               <widget class="QFrame" name="frame_56">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>100</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(33, 53, 60);
+color: rgb(212, 212, 212);
+</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_20">
+                 <item>
+                  <widget class="QLabel" name="label_47">
+                   <property name="minimumSize">
+                    <size>
+                     <width>691</width>
+                     <height>71</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Nova Flat</family>
+                     <pointsize>19</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string>VIEW BUDGETS</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_57">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_14">
+                 <item>
+                  <widget class="QFrame" name="frame_58">
+                   <property name="minimumSize">
+                    <size>
+                     <width>100</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_59">
+                   <property name="minimumSize">
+                    <size>
+                     <width>450</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_26">
+                    <item>
+                     <widget class="QFrame" name="frame_65">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <widget class="QLabel" name="label_51">
+                       <property name="geometry">
+                        <rect>
+                         <x>120</x>
+                         <y>0</y>
+                         <width>249</width>
+                         <height>20</height>
+                        </rect>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>10</width>
+                         <height>2</height>
+                        </size>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <family>Nova Flat</family>
+                         <pointsize>13</pointsize>
+                         <weight>75</weight>
+                         <bold>true</bold>
+                        </font>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">color: rgb(255, 255, 255);</string>
+                       </property>
+                       <property name="text">
+                        <string>Mark a budget as complete</string>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                      </widget>
+                      <widget class="QLineEdit" name="lineEdit_18">
+                       <property name="geometry">
+                        <rect>
+                         <x>100</x>
+                         <y>50</y>
+                         <width>291</width>
+                         <height>31</height>
+                        </rect>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">color: rgb(218, 218, 218);
+padding-left:3px;
+border: 1px solid rgb(238, 238, 238);
+border-radius:4px</string>
+                       </property>
+                       <property name="placeholderText">
+                        <string>Enter Budget ID</string>
+                       </property>
+                      </widget>
+                      <widget class="QPushButton" name="pushButton_25">
+                       <property name="geometry">
+                        <rect>
+                         <x>100</x>
+                         <y>100</y>
+                         <width>101</width>
+                         <height>31</height>
+                        </rect>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>84</width>
+                         <height>19</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>171</width>
+                         <height>41</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">background-color:rgb(255, 0, 4);
+border-radius: 5px;
+color: rgb(212, 212, 212);</string>
+                       </property>
+                       <property name="text">
+                        <string>Failed</string>
+                       </property>
+                      </widget>
+                      <widget class="QPushButton" name="pushButton_26">
+                       <property name="geometry">
+                        <rect>
+                         <x>280</x>
+                         <y>100</y>
+                         <width>111</width>
+                         <height>31</height>
+                        </rect>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>84</width>
+                         <height>19</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>171</width>
+                         <height>41</height>
+                        </size>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <family>Nova Flat</family>
+                         <pointsize>10</pointsize>
+                         <weight>50</weight>
+                         <bold>false</bold>
+                        </font>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">background-color:rgb(16, 208, 6);
+border-radius: 5px;
+color: rgb(0, 0, 0)</string>
+                       </property>
+                       <property name="text">
+                        <string>Success</string>
+                       </property>
+                      </widget>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QTableWidget" name="tableWidget">
+                      <property name="minimumSize">
+                       <size>
+                        <width>500</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>650</width>
+                        <height>235</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Nova Flat</family>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(166, 166, 166);</string>
+                      </property>
+                      <property name="alternatingRowColors">
+                       <bool>true</bool>
+                      </property>
+                      <property name="verticalScrollMode">
+                       <enum>QAbstractItemView::ScrollPerItem</enum>
+                      </property>
+                      <property name="rowCount">
+                       <number>10</number>
+                      </property>
+                      <property name="columnCount">
+                       <number>6</number>
+                      </property>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <column/>
+                      <column/>
+                      <column/>
+                      <column/>
+                      <column/>
+                      <column/>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_60">
+                   <property name="minimumSize">
+                    <size>
+                     <width>100</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="page_9"/>
+            <widget class="QWidget" name="page_10">
+             <layout class="QVBoxLayout" name="verticalLayout_23">
+              <item>
+               <widget class="QFrame" name="frame_61">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>100</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(33, 53, 60);
+color: rgb(212, 212, 212);
+</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_22">
+                 <item>
+                  <widget class="QLabel" name="label_48">
+                   <property name="minimumSize">
+                    <size>
+                     <width>691</width>
+                     <height>71</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Nova Flat</family>
+                     <pointsize>19</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="text">
+                    <string>PREDICT SPEND</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_62">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_24">
+                 <item>
+                  <widget class="QFrame" name="frame_63">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>119</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <widget class="QSplitter" name="splitter">
+                    <property name="geometry">
+                     <rect>
+                      <x>280</x>
+                      <y>10</y>
+                      <width>161</width>
+                      <height>56</height>
+                     </rect>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>161</width>
+                      <height>56</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>161</width>
+                      <height>56</height>
+                     </size>
+                    </property>
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <widget class="QLabel" name="label_49">
+                     <property name="minimumSize">
+                      <size>
+                       <width>161</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>161</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>Nova Flat</family>
+                       <pointsize>11</pointsize>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(190, 190, 190);</string>
+                     </property>
+                     <property name="text">
+                      <string>Select Date to predict</string>
+                     </property>
+                    </widget>
+                    <widget class="QDateEdit" name="dateEdit_3">
+                     <property name="minimumSize">
+                      <size>
+                       <width>151</width>
+                       <height>31</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>151</width>
+                       <height>31</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">border-radius: 3px;
+border: 1px solid white;
+color: rgb(227, 227, 227);</string>
+                     </property>
+                     <property name="displayFormat">
+                      <string>yyyy MMMM dd</string>
+                     </property>
+                    </widget>
+                   </widget>
+                   <widget class="QPushButton" name="pushButton_27">
+                    <property name="geometry">
+                     <rect>
+                      <x>300</x>
+                      <y>80</y>
+                      <width>111</width>
+                      <height>31</height>
+                     </rect>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>111</width>
+                      <height>31</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>111</width>
+                      <height>31</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Nova Flat</family>
+                      <pointsize>10</pointsize>
+                      <weight>50</weight>
+                      <bold>false</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color:rgb(16, 208, 6);
+border-radius: 5px;
+color: rgb(0, 0, 0)</string>
+                    </property>
+                    <property name="text">
+                     <string>Predict</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_64">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
     </widget>
    </item>
   </layout>
  </widget>
  <resources>
   <include location="resources.qrc"/>
+  <include location="../../chart code/resources.qrc"/>
  </resources>
  <connections/>
 </ui>

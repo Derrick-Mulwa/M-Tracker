@@ -1271,20 +1271,6 @@ class Ui_Form(object):
 "color: rgb(212, 212, 212);")
         self.pushButton_19.setObjectName("pushButton_19")
         self.verticalLayout_9.addWidget(self.pushButton_19)
-        self.pushButton_23 = QtWidgets.QPushButton(self.frame_41)
-        self.pushButton_23.setMinimumSize(QtCore.QSize(181, 41))
-        font = QtGui.QFont()
-        font.setFamily("Nova Flat")
-        font.setPointSize(10)
-        self.pushButton_23.setFont(font)
-        self.pushButton_23.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.pushButton_23.setStyleSheet("background-color: rgb(0, 193, 0);\n"
-"\n"
-"border-radius:5px")
-        self.pushButton_23.setCheckable(False)
-        self.pushButton_23.setChecked(False)
-        self.pushButton_23.setObjectName("pushButton_23")
-        self.verticalLayout_9.addWidget(self.pushButton_23)
         self.verticalLayout_8.addWidget(self.frame_41, 0, QtCore.Qt.AlignVCenter)
         self.frame_42 = QtWidgets.QFrame(self.frame_38)
         self.frame_42.setFrameShape(QtWidgets.QFrame.StyledPanel)
@@ -1793,8 +1779,6 @@ class Ui_Form(object):
         self.pushButton_17.setText(_translate("Form", "View Transactions"))
         self.pushButton_18.setText(_translate("Form", "Set Buget"))
         self.pushButton_19.setText(_translate("Form", "Predict"))
-        self.pushButton_23.setText(_translate("Form", "Add new data"))
-        self.pushButton_23.setShortcut(_translate("Form", "Return"))
         self.pushButton_20.setText(_translate("Form", "Logout"))
         self.label_40.setText(_translate("Form", "VIEW TRANSACTIONS"))
         self.comboBox.setItemText(0, _translate("Form", "Daily Balance Average"))
@@ -1834,7 +1818,6 @@ class Ui_Form(object):
         self.label_49.setText(_translate("Form", "Select Date to predict"))
         self.dateEdit_3.setDisplayFormat(_translate("Form", "yyyy MMMM dd"))
         self.pushButton_27.setText(_translate("Form", "Predict"))
-
 
 
         ## My code
@@ -1892,15 +1875,9 @@ class Ui_Form(object):
         self.prediction.setObjectName(u"prediction")
         self.dateEdit_3.setDate(QtCore.QDate.currentDate())
         self.pushButton_27.clicked.connect(self.pushButton_27_clicked)
-        self.pushButton_23.clicked.connect(self.pushButton_23_clicked)
 
 
-    def pushButton_23_clicked(self):
-        self.first_time = True
-        self.yusanem = self.session_username
-        self.stackedWidget_2.setCurrentWidget(self.page_5)
-        self.stackedWidget.setCurrentWidget(self.SignupPage)
-        self.frame_5.hide()
+
     def pushButton_27_clicked(self):
         self.mycursor.execute('SELECT transaction_amount_model FROM mtracker.personal_details WHERE username = %s;',
                      (self.session_username,))
@@ -2343,73 +2320,64 @@ class Ui_Form(object):
             x = messagebox.exec_()
 
     def pushButton_12_clicked(self):
-            if self.first_time ==  True:
-                username = self.signup_credentials[0]
-                email = self.signup_credentials[1]
-                fname = self.signup_details[1]
-                lname = self.signup_details[2]
+        username = self.signup_credentials[0]
+        email = self.signup_credentials[1]
+        fname = self.signup_details[1]
+        lname = self.signup_details[2]
 
-                company = "M-Tracker"
-                body = f"Dear {fname} {lname}," \
-                       f"\n" \
-                       f"\n" \
-                       f"Welcome to M-Tracker, your personal finance analyzer! We are thrilled that you have chosen our " \
-                       f"platform to help you understand your financial behavior. This email is to confirm that your " \
-                       f"sign-up has been successful and that you can now start using Mtracker to track your finances. \n" \
-                       f"\n" \
-                       f"Your username for logging into Mtracker is: {username}\n" \
-                       f"\n" \
-                       f"We understand that managing finances can be overwhelming, but our platform is designed to make it " \
-                       f"easy for you to stay on top of your finances. With M-Tracker, you can track your expenses, income, " \
-                       f"and set budgets to achieve financial stability.\n" \
-                       f"\n" \
-                       f"We encourage you to explore our platform and take advantage of our features to help you understand " \
-                       f"your finances clearly. Our customer support team is always available to assist you with any " \
-                       f"questions you may have.\n" \
-                       f"\n" \
-                       f"Once again, we would like to welcome you to M-Tracker, and we are excited to have you as a part of our community." \
-                       f"\n\n" \
-                       f"\n" \
-                       f"Best regards," \
-                       f"\n\n" \
-                       f"{company}."
+        company = "M-Tracker"
+        body = f"Dear {fname} {lname}," \
+               f"\n" \
+               f"\n" \
+               f"Welcome to M-Tracker, your personal finance analyzer! We are thrilled that you have chosen our " \
+               f"platform to help you understand your financial behavior. This email is to confirm that your " \
+               f"sign-up has been successful and that you can now start using Mtracker to track your finances. \n" \
+               f"\n" \
+               f"Your username for logging into Mtracker is: {username}\n" \
+               f"\n" \
+               f"We understand that managing finances can be overwhelming, but our platform is designed to make it " \
+               f"easy for you to stay on top of your finances. With M-Tracker, you can track your expenses, income, " \
+               f"and set budgets to achieve financial stability.\n" \
+               f"\n" \
+               f"We encourage you to explore our platform and take advantage of our features to help you understand " \
+               f"your finances clearly. Our customer support team is always available to assist you with any " \
+               f"questions you may have.\n" \
+               f"\n" \
+               f"Once again, we would like to welcome you to M-Tracker, and we are excited to have you as a part of our community." \
+               f"\n\n" \
+               f"\n" \
+               f"Best regards," \
+               f"\n\n" \
+               f"{company}."
 
-                subject = "Welcome to M-Tracker"
+        subject = "Welcome to M-Tracker"
 
-                message = f'subject: {subject} \n\n{body}'
-                try:
-                    self.sendmail(email, message)
-                    messagebox = QMessageBox()
-                    messagebox.setWindowTitle("Registration successfull")
-                    messagebox.setIcon(QMessageBox.Information)
-                    messagebox.setText("Your account has been created successfully! \n"
-                                       "Please log in using your username(sent to your\n"
-                                       "email) or your email address to enjoy our \n"
-                                       "full features!")
-                    x = messagebox.exec_()
+        message = f'subject: {subject} \n\n{body}'
+        try:
+            self.sendmail(email, message)
+            messagebox = QMessageBox()
+            messagebox.setWindowTitle("Registration successfull")
+            messagebox.setIcon(QMessageBox.Information)
+            messagebox.setText("Your account has been created successfully! \n"
+                               "Please log in using your username(sent to your\n"
+                               "email) or your email address to enjoy our \n"
+                               "full features!")
+            x = messagebox.exec_()
 
-                    self.stackedWidget_2.setCurrentWidget(self.page_3)
-                    self.lineEdit_3.clear()
-                    self.lineEdit_4.clear()
-                    self.lineEdit_5.clear()
-                    self.lineEdit_6.clear()
-                    self.lineEdit_8.clear()
-                    self.stackedWidget.setCurrentWidget(self.loginPage)
-                except:
-                    messagebox = QMessageBox()
-                    messagebox.setWindowTitle("Error")
-                    messagebox.setIcon(QMessageBox.Warning)
-                    messagebox.setText("An unexpected error occured. Ensure you\n"
-                                       "have a steady internet connection!")
-                    x = messagebox.exec_()
-
-            else:
-                    messagebox = QMessageBox()
-                    messagebox.setWindowTitle("Success")
-                    messagebox.setIcon(QMessageBox.Information)
-                    messagebox.setText("Your data has been updated successfully!")
-                    x = messagebox.exec_()
-
+            self.stackedWidget_2.setCurrentWidget(self.page_3)
+            self.lineEdit_3.clear()
+            self.lineEdit_4.clear()
+            self.lineEdit_5.clear()
+            self.lineEdit_6.clear()
+            self.lineEdit_8.clear()
+            self.stackedWidget.setCurrentWidget(self.loginPage)
+        except:
+            messagebox = QMessageBox()
+            messagebox.setWindowTitle("Error")
+            messagebox.setIcon(QMessageBox.Warning)
+            messagebox.setText("An unexpected error occured. Ensure you\n"
+                               "have a steady internet connection!")
+            x = messagebox.exec_()
 
     def remove_comma(self, x):
         x = str(x)
@@ -2906,7 +2874,6 @@ class Ui_Form(object):
 
 
 
-
             except:
                 messagebox = QMessageBox()
                 messagebox.setWindowTitle("Invalid password")
@@ -2992,8 +2959,6 @@ class Ui_Form(object):
             messagebox.setIcon(QMessageBox.Warning)
             messagebox.setText("Password must include a number!")
             x = messagebox.exec_()
-
-        self.first_time = True
 
     def sign_up_checkbox(self, state):
         if state == Qt.Checked:
